@@ -80,17 +80,17 @@ This design ensures scalability, traceability, and performance optimization.
 
 ## Project Structure
 
+```text
 ├── models/
-│ ├── bronze/
-│ ├── silver/
-│ ├── gold/
+│   ├── bronze/
+│   ├── silver/
+│   ├── gold/
 ├── snapshots/
 ├── tests/
 ├── macros/
 ├── seeds/
 ├── analyses/
 └── dbt_project.yml
-
 
 ## Concepts in Practice
 
