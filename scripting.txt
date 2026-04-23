@@ -1,0 +1,29 @@
+ uv init
+
+ uv sync
+
+.venv/Scripts/Activate
+
+
+uv ad dbt-core
+
+uv add dbt-snowflake
+
+
+dbt init
+
+
+
+
+
+
+# Git Commands
+
+git branch -m main
+
+git add .
+
+git commit -m "initial commit"
+
+git switch -c feature_airnbn
+
