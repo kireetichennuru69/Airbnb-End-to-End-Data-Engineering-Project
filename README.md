@@ -80,7 +80,6 @@ This design ensures scalability, traceability, and performance optimization.
 
 ## Project Structure
 
-
 ├── models/
 │ ├── bronze/
 │ ├── silver/
