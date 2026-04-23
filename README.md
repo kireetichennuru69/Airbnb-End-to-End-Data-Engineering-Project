@@ -91,6 +91,7 @@ This design ensures scalability, traceability, and performance optimization.
 ├── seeds/
 ├── analyses/
 └── dbt_project.yml
+```text
 
 ## Concepts in Practice
 
