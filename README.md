@@ -119,8 +119,8 @@ This project delivers a scalable and production-style data pipeline that demonst
 
 ## Credits
 
-This project is inspired by the tutorial created by Ansh Lamba.
+This project is inspired by the tutorial created by **Ansh Lamba**.
 The implementation, structure, and enhancements in this repository were independently developed as part of my data engineering portfolio.
 
-YouTube: https://www.youtube.com/@AnshLambaJSR
-LinkedIn: https://ca.linkedin.com/in/ansh-lamba-793681184
+- YouTube: https://www.youtube.com/@AnshLambaJSR
+- LinkedIn: https://ca.linkedin.com/in/ansh-lamba-793681184
