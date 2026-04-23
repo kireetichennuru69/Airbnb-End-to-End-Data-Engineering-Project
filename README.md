@@ -24,8 +24,8 @@ This project demonstrates an end-to-end Airbnb-style data engineering workflow b
 The goal is to show how a data pipeline can be designed in a clean, scalable, and portfolio-friendly way while following modern analytics engineering practices.
 
 ## Architecture
+<img width="5400" height="3281" alt="Airbnb DE Project AD" src="https://github.com/user-attachments/assets/a1197773-af65-4758-9d31-3579e5a0e855" />
 
-![Airbnb End-to-End Data Engineering Architecture](./assets/airbnb-end-to-end-architecture.png)
 
 ## Concepts Covered
 
