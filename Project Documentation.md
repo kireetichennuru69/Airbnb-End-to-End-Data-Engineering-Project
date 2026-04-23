@@ -157,19 +157,10 @@ Instead of hardcoding transformations:
 | Version Control | Git |
 | Modeling | Star Schema |
 
----
-
-## 11. Business Logic
-
-### Examples
-
-- Revenue = price * number_of_nights
-- Occupancy Rate = booked_days / available_days
-- Host Ranking based on total revenue
 
 ---
 
-## 12. Testing Strategy
+## 11. Testing Strategy
 
 Using dbt:
 - Schema tests
@@ -178,7 +169,7 @@ Using dbt:
 
 ---
 
-## 13. Deployment Strategy
+## 12. Deployment Strategy
 
 - Code managed in GitHub
 - dbt runs executed locally or via CI/CD (future)
@@ -186,7 +177,7 @@ Using dbt:
 
 ---
 
-## 14. Risks & Mitigation
+## 13. Risks & Mitigation
 
 | Risk | Mitigation |
 |-----|-----------|
@@ -196,7 +187,7 @@ Using dbt:
 
 ---
 
-## 15. Future Enhancements
+## 14. Future Enhancements
 
 - Airflow orchestration
 - CI/CD integration
@@ -205,7 +196,7 @@ Using dbt:
 
 ---
 
-## 16. Conclusion
+## 15. Conclusion
 
 This project demonstrates a **production-style data engineering system** with:
 
