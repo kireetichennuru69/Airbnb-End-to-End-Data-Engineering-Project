@@ -1,0 +1,26 @@
+airbnb_dbt_project:
+  outputs:
+    dev:
+      account: VJZHVRP-GRB62054
+      database: AIRBNB
+      password: Amzn@lmaq060996
+      role: ACCOUNTADMIN
+      schema: dbt_schema
+      threads: 1
+      type: snowflake
+      user: KCLEARNINGS7
+      warehouse: COMPUTE_WH
+  target: dev
+my_ecom_project:
+  outputs:
+    dev:
+      account: DPLBHHS-VVB45694
+      database: ECOM_DB
+      password: Amzn@lmaq060996
+      role: ACCOUNTADMIN
+      schema: STAGING
+      threads: 1
+      type: snowflake
+      user: KCLEARNINGS6
+      warehouse: ECOMMERCE_WH
+  target: dev
