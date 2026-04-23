@@ -1,4 +1,4 @@
-# Airbnb End-to-End Data Engineering Project
+# Airbnb End-to-End Data Analytics Engineering Project
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
 ![S3](https://img.shields.io/badge/S3-569A31?logo=amazons3&logoColor=white)
