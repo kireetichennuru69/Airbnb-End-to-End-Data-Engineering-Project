@@ -2,9 +2,9 @@
 
 ### 1. Environment Setup (uv)
 ```bash
-# Install uv
-curl -LsSf https://astral.sh | sh            # macOS/Linux
-powershell -c "irm https://astral.sh | iex" # Windows
+# Install uv - Windows
+winget install --id=astral-sh
+powershell -c "irm https://astral.sh | iex" 
 
 # Virtual Environment Creation
 uv venv                       # Create the .venv
