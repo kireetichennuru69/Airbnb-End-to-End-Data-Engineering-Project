@@ -7,8 +7,10 @@
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 ![Star Schema](https://img.shields.io/badge/Star_Schema-6B7280)
 ![Metadata--Driven%20Pipelines](https://img.shields.io/badge/Metadata--Driven_Pipelines-111827)
+![Project Status](https://img.shields.io/badge/status-production--style-blue)
+![Maintained](https://img.shields.io/badge/maintained-yes-green)
 
-> Portfolio project for building a modern ELT pipeline using AWS S3, Snowflake, dbt, Git, and analytics-ready dimensional modeling.
+> A production-style data engineering project demonstrating modern ELT pipeline design using cloud-native tool.
 
 ## Project Overview
 
