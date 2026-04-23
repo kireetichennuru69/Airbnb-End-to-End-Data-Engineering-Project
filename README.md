@@ -26,6 +26,13 @@ The goal is to show how a data pipeline can be designed in a clean, scalable, an
 ## Architecture
 <img width="5400" height="3281" alt="Airbnb DE Project AD" src="https://github.com/user-attachments/assets/a1197773-af65-4758-9d31-3579e5a0e855" />
 
+The architecture follows a **Medallion pattern**:
+
+- **Bronze** → Raw ingestion layer  
+- **Silver** → Cleaned and standardized data  
+- **Gold** → Business-level aggregations and star schema  
+
+This design ensures scalability, traceability, and performance optimization.
 
 ## Concepts Covered
 
@@ -57,26 +64,32 @@ The goal is to show how a data pipeline can be designed in a clean, scalable, an
 - Analytics-ready output designed for dashboards and reporting
 - Portfolio-friendly structure that is easy to explain in interviews
 
-## Sample Tech Stack
+
+## Tech Stack
 
 | Layer | Technology | Purpose |
-|---|---|---|
-| Storage | AWS S3 | Raw file landing zone |
-| Warehouse | Snowflake | Centralized SQL processing |
-| Transformation | dbt | SQL transformation framework |
-| Version Control | Git / GitHub | Collaboration and release tracking |
-| Modeling | Star Schema | BI-friendly analytical design |
-| Pipeline Design | Metadata-driven logic | Dynamic, reusable transformations |
+|------|-----------|--------|
+| Storage | AWS S3 | Raw data storage |
+| Warehouse | Snowflake | Data processing |
+| Transformation | dbt | SQL-based transformations |
+| Version Control | Git / GitHub | Code management |
+| Modeling | Star Schema | Analytics optimization |
+| Pipeline Design | Metadata-driven | Reusable logic |
 
-## Folder Structure
+## Project Structure
 
-```text
-.
-├── assets/
-│   └── airbnb-end-to-end-architecture.png
-├── README.md
-└── PRD.md
-```
+
+├── models/
+│ ├── bronze/
+│ ├── silver/
+│ ├── gold/
+├── snapshots/
+├── tests/
+├── macros/
+├── seeds/
+├── analyses/
+└── dbt_project.yml
+
 
 ## Concepts in Practice
 
@@ -97,13 +110,17 @@ The star schema organizes data into a central fact table surrounded by dimension
 
 ## Result
 
-The final result is a reusable, well-structured Airbnb analytics pipeline that demonstrates:
-
-- modern cloud data engineering practices
-- scalable dbt development
-- warehouse-centric ELT design
-- maintainable Git-based project organization
+This project delivers a scalable and production-style data pipeline that demonstrates:
+- Modern cloud data engineering practices
+- Warehouse-first ELT design
+- Scalable dbt transformations
+- Clean and maintainable architecture
+- Real-world analytics readiness
 
 ## Credits
 
-Project inspiration and learning flow are based on the YouTube tutorial shared by Ansh Lamba: `Airbnb End-To-End Data Engineering Project (For Beginners) | DBT + Snowflake + AWS`.
+This project is inspired by the tutorial created by Ansh Lamba.
+The implementation, structure, and enhancements in this repository were independently developed as part of my data engineering portfolio.
+
+YouTube: https://www.youtube.com/@AnshLambaJSR
+LinkedIn: https://ca.linkedin.com/in/ansh-lamba-793681184
